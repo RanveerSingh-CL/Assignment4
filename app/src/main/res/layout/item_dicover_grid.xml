@@ -22,8 +22,8 @@
             android:layout_height="26dp"
             android:background="@color/black_transparent"
             android:orientation="horizontal"
-            android:paddingLeft="10dp"
-            android:paddingRight="7dp"
+            android:paddingLeft="@dimen/length_very_small"
+            android:paddingRight="@dimen/length_very_small"
 
             >
 

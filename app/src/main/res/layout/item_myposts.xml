@@ -23,7 +23,7 @@
             android:background="@android:color/black"
             android:orientation="horizontal"
             android:paddingLeft="12dp"
-            android:paddingRight="7dp"
+            android:paddingRight="@dimen/length_very_small"
 
             >
 
@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="@dimen/length_very_small"
 
 
         >
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="12dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="@dimen/length_very_small"
 
             android:layout_weight="1"
             >

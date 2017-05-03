@@ -13,14 +13,16 @@ import android.view.ViewGroup;
 import com.example.rishucuber.assignment4.R;
 import com.example.rishucuber.assignment4.adapter.MyPostsRecyclerAdapter;
 
-
+/**
+ * MyPostsFragment
+ */
 public class MyPostsFragment extends Fragment {
     private RecyclerView recyclerView;
     private MyPostsRecyclerAdapter adapter;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
+                             final Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_my_posts, container, false);
         recyclerView = (RecyclerView) v.findViewById(R.id.recycler_view_posts);
         adapter = new MyPostsRecyclerAdapter(getContext());
@@ -28,6 +30,11 @@ public class MyPostsFragment extends Fragment {
         recyclerView.setAdapter(adapter);
         return v;
     }
+
+    /**
+     * @param mode fragment mode
+     * @return fragment
+     */
     public static MyPostsFragment getInstance(final int mode) {
         Bundle bundle = new Bundle();
         MyPostsFragment myPostsFragment = new MyPostsFragment();
@@ -35,7 +42,6 @@ public class MyPostsFragment extends Fragment {
         Log.d("MyPostsFragment", "getInstance: " + mode);
         myPostsFragment.setArguments(bundle);
         return myPostsFragment;
-
     }
 
 }

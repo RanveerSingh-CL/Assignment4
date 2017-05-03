@@ -41,6 +41,9 @@ dolor sit amet, consectetur lorem ipsum.</string>
     <string name="item4">My Requests</string>
     <string name="item5">Share</string>
     <string name="item6">Logout</string>
+    <string name="posts">Posts</string>
+    <string name="map">Map</string>
+    <string name="network">Network</string>
 
 
 </resources>

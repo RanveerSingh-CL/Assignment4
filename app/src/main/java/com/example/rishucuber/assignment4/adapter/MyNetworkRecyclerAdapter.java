@@ -12,47 +12,45 @@ import android.view.ViewGroup;
 
 import com.example.rishucuber.assignment4.R;
 
+/**
+ * recycler adapter
+ */
 public class MyNetworkRecyclerAdapter extends RecyclerView.Adapter<MyNetworkRecyclerAdapter.MyViewHolder> {
+    private Context context;
+    private final int itemCount = 15;
 
-
-    Context context;
-
-
-    public MyNetworkRecyclerAdapter(Context context) {
-
+    /**
+     * @param context contxt
+     */
+    public MyNetworkRecyclerAdapter(final Context context) {
         this.context = context;
-
-
     }
 
-
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-
+    public MyViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_my_network, parent, false);
         MyViewHolder holder = new MyViewHolder(view);
         return holder;
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
-
-
-
-
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
     }
-
 
     @Override
     public int getItemCount() {
-        return 10;
+        return itemCount;
     }
 
+    /**
+     *
+     */
     class MyViewHolder extends RecyclerView.ViewHolder {
+        /**
+         * @param itemView itemview
+         */
         public MyViewHolder(final View itemView) {
             super(itemView);
-
         }
     }
 

@@ -9,30 +9,32 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import com.example.rishucuber.assignment4.R;
 import com.example.rishucuber.assignment4.adapter.RequestsRecyclerAdapter;
 
+/**
+ * RequestsFragment
+ */
 public class RequestsFragment extends Fragment {
     private RecyclerView recyclerView;
     private RequestsRecyclerAdapter adapter;
 
-
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, final ViewGroup container,
+                             final Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_requests, null);
         recyclerView = (RecyclerView) v.findViewById(R.id.recycler_view_request);
         adapter = new RequestsRecyclerAdapter(getContext());
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setAdapter(adapter);
-
-
         return v;
     }
 
+    /**
+     * @param mode fragment mode
+     * @return fragment
+     */
     public static RequestsFragment getInstance(final int mode) {
         Bundle bundle = new Bundle();
         RequestsFragment requestsFragment = new RequestsFragment();

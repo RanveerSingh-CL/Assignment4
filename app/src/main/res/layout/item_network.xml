@@ -11,7 +11,7 @@
         android:orientation="horizontal"
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
-        android:paddingLeft="11dp">
+        android:paddingLeft="@dimen/length_very_small">
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
         android:layout_width="47dp"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:layout_marginLeft="11dp"
+        android:layout_marginLeft="@dimen/length_very_small"
 
         >
     <TextView

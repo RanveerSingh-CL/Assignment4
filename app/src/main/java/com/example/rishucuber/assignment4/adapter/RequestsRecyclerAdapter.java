@@ -12,42 +12,41 @@ import android.view.ViewGroup;
 
 import com.example.rishucuber.assignment4.R;
 
+/**
+ * RequestsRecyclerAdapter
+ */
 public class RequestsRecyclerAdapter extends RecyclerView.Adapter<RequestsRecyclerAdapter.MyViewHolder> {
+    private Context context;
+    private final int itemCount = 15;
 
-
-    Context context;
-
-
-    public RequestsRecyclerAdapter(Context context) {
-
+    /**
+     * @param context contect
+     */
+    public RequestsRecyclerAdapter(final Context context) {
         this.context = context;
-
-
     }
-
-
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-
+    public MyViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_requests, parent, false);
         MyViewHolder holder = new MyViewHolder(view);
         return holder;
     }
-
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
-
-
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
     }
-
-
     @Override
     public int getItemCount() {
-        return 10;
+        return itemCount;
     }
 
+    /**
+     *
+     */
     class MyViewHolder extends RecyclerView.ViewHolder {
+        /**
+         *
+         * @param itemView itemView
+         */
         public MyViewHolder(final View itemView) {
             super(itemView);
 
