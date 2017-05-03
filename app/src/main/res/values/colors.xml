@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58bdb8</color>
+    <color name="colorPrimaryDark">#58bdb8</color>
+    <color name="colorAccent">#FF4081</color>
+<color name="textColor">#202020</color>
+    <color name="grey_light">#f3f3f3</color>
+    <color name="grey_text">#888888</color>
+    <color name="view_color">#979797</color>
+    <color name="red_reject">#d0011b</color>
+    <color name="black_transparent">#60000000</color>
+    <color name="colorPrimaryDarker">#4caea9</color>
+    <color name="navi_shadow">  #f8f9fa</color>
+
+
+
+
+
+</resources>

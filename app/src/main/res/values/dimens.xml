@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_max_height">60dp</dimen>
+    <dimen name="tab_layout_max_height">60dp</dimen>
+
+
+
+
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="text_view_max_height">40dp</dimen>
+
+    <dimen name="toolbar_height">40dp</dimen>
+
+
+    <dimen name="grid_side_length">120dp</dimen>
+    <dimen name="zero_dimen">0dp</dimen>
+
+    <dimen name="margin_left_very_small">8dp</dimen>
+    <dimen name="margin_left_small">16dp</dimen>
+    <dimen name="margin_left_medium">24dp</dimen>
+    <dimen name="margin_left_large">32dp</dimen>
+    <dimen name="margin_top_very_small">4dp</dimen>
+    <dimen name="margin_top_small">8dp</dimen>
+    <dimen name="margin_top_medium">16dp</dimen>
+    <dimen name="margin_top_large">32dp</dimen>
+    <dimen name="margin_top_xtra_large">60dp</dimen>
+    <dimen name="margin_bet_lay">28dp</dimen>
+
+    <dimen name="padding_very_small">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_high">24dp</dimen>
+    <dimen name="elevation">6dp</dimen>
+
+    <!-- Pill shape buttons>-->
+    <dimen name="pill_button_corner_radius">30dp</dimen>
+    <dimen name="pill_button_corner_radius_small">10dp</dimen>
+    <dimen name="pill_button_height">32dp</dimen>
+    <dimen name="pill_button_width">88dp</dimen>
+    <dimen name="pill_button_radius">60dp</dimen>
+    <!-- Circular Image>-->
+    <dimen name="circular_image_side">64dp</dimen>
+    <dimen name="circular_image_side_large">112dp</dimen>
+    <dimen name="circular_image_border_width">1dp</dimen>
+    <dimen name="discover_frame_height">40dp</dimen>
+    <dimen name="discover_frame_height_grid">24dp</dimen>
+
+    <dimen name="square_button_width">@dimen/pill_button_width</dimen>
+    <dimen name="square_button_height">34dp</dimen>
+
+
+</resources>

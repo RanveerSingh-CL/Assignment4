@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seaarch_bar_background"
+            android:layout_weight="0.2"
+            android:hint="@string/search_hint"
+            android:drawableLeft="@drawable/location_icon_2"
+           style="@style/search_bar"
+
+
+           />
+
+    </LinearLayout>
+</LinearLayout>

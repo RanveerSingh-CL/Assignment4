@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/paris" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:alpha="0.6"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="7dp"
+
+            >
+
+            <TextView
+                style="@style/item_discovered_transparentbar_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/explore_paris" />
+
+            <ImageView
+                style="@style/item_discovered_transparentbar_icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_edit" />
+
+            <ImageView
+                style="@style/item_discovered_transparentbar_icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_trash" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/item_discovered_tv_over_image"
+            android:layout_width="107dp"
+            android:layout_height="27dp"
+            android:text="@string/send_req"
+            android:background="@drawable/view_button_background"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_compat"
+            style="@style/item_discovered_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+
+
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_image_icon"
+
+            style="@style/item_discovered_profile_image"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/john"
+                style="@style/name_tv"/>
+
+
+            <RatingBar
+                android:id="@+id/ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="6"
+                style="?android:attr/ratingBarStyleSmall"
+                android:rating="5"
+                />
+            </LinearLayout>
+            <TextView
+            android:id="@+id/time_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/icon_timer"
+            android:text="@string/time_left"
+            style="@style/item_discovered_tv"
+            />
+        <TextView
+            android:id="@+id/reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/icon_comment_offclick_large"
+            android:text="@string/review"
+            style="@style/item_discovered_tv"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_text"
+            style="@style/item_text_tv"
+            android:layout_marginRight="2dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
