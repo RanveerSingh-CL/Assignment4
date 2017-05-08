@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"    >
+    android:layout_height="match_parent">
 
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
@@ -15,16 +15,19 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <include
                 android:id="@+id/appbar"
                 layout="@layout/appbar_layout" />
+
             <android.support.v4.view.ViewPager
                 android:id="@+id/viewpager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/tab"
-                android:padding="-3dp"
-                android:layout_below="@id/appbar"></android.support.v4.view.ViewPager>
+                android:layout_below="@id/appbar"
+              ></android.support.v4.view.ViewPager>
+
             <LinearLayout
                 android:id="@+id/tab"
                 android:layout_width="match_parent"
@@ -35,15 +38,12 @@
             </LinearLayout>
         </RelativeLayout>
     </FrameLayout>
-    <android.support.design.widget.NavigationView
 
+    <android.support.design.widget.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:headerLayout="@layout/content_drawer"
         android:layout_gravity="start"
-        >
-
-
+        app:headerLayout="@layout/content_drawer">
     </android.support.design.widget.NavigationView>
 
 

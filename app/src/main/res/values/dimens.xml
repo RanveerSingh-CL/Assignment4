@@ -9,7 +9,7 @@
     <dimen name="text_size_small">12sp</dimen>
 
     <!--lengths-->
-
+    <dimen name="view_length">1dp</dimen>
     <dimen name="length_very_smaller">4dp</dimen>
     <dimen name="length_very_small">8dp</dimen>
     <dimen name="length_small">16dp</dimen>
@@ -26,6 +26,7 @@
     <!--xxlengths  -->
     <dimen name="xxlength_large">90dp</dimen>
     <dimen name="xxlength_very_large">100dp</dimen>
+    <dimen name="xxlength">225dp</dimen>
     <!-- pill buttons-->
     <dimen name="pill_button_corner_radius">30dp</dimen>
     <dimen name="pill_button_corner_radius_small">8dp</dimen>
@@ -36,6 +37,12 @@
     <dimen name="circular_image_side">64dp</dimen>
     <dimen name="circular_image_side_large">112dp</dimen>
     <dimen name="circular_image_border_width">1dp</dimen>
+    <!--others-->
+    <dimen name="card_corner_radius">1dp</dimen>
+    <dimen name="grid_margin">1dp</dimen>
+    <dimen name="request_card_height">220dp</dimen>
+    <dimen name="negative_padding">-36dp</dimen>
+    <dimen name="grid_length">120dp</dimen>
 
 
 </resources>

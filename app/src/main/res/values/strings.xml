@@ -1,11 +1,11 @@
 <resources>
     <string name="google_maps_key">AIzaSyAqMJ9D_BOFcEb2VHwpcous0q_1mChJ9z4</string>
     <string name="app_name">Assignment4</string>
-    <string name="title_tab1">Discover</string>
-    <string name="title_tab2">Map</string>
-    <string name="title_tab3">My Posts</string>
-    <string name="title_tab4">Requests</string>
-    <string name="title_tab5">My Network</string>
+    <string name="title_tab_discover">Discover</string>
+    <string name="title_tab_map">Map</string>
+    <string name="title_tab_posts">My Posts</string>
+    <string name="title_tab_requests">Requests</string>
+    <string name="title_tab_network">My Network</string>
     <string name="explore_paris">Explore Paris</string>
     <string name="time_left">6d 2h left</string>
     <string name="review">222 Reviews</string>
@@ -13,8 +13,8 @@
 dolor sit amet, consectetur lorem ipsum.</string>
     <string name="john">John</string>
     <string name="send_req">Send Request</string>
-    <string name="search_hint">Where would you like to connect?</string>
-    <string name="search_hint1">Search</string>
+    <string name="search_hint_question">Where would you like to connect?</string>
+    <string name="search_hint_search">Search</string>
 
 
     <string name="Evelyn">Evelyn</string>
@@ -29,18 +29,18 @@ dolor sit amet, consectetur lorem ipsum.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="evelyn">Evelyn</string>
 
-    <string name="app_bar_title1">Discover</string>
-    <string name="app_bar_title2">Map Request</string>
-    <string name="app_bar_title3">My Posts</string>
-    <string name="app_bar_title4">New Requests</string>
-    <string name="app_bar_title5">My Network</string>
+    <string name="app_bar_title_discover">Discover</string>
+    <string name="app_bar_title_map">Map Request</string>
+    <string name="app_bar_title_posts">My Posts</string>
+    <string name="app_bar_title_request">New Requests</string>
+    <string name="app_bar_title_network">My Network</string>
     <!--Navi Drawer Items-->
-    <string name="item1">Home</string>
-    <string name="item2">Cards/Subscripton</string>
-    <string name="item3">Support</string>
-    <string name="item4">My Requests</string>
-    <string name="item5">Share</string>
-    <string name="item6">Logout</string>
+    <string name="navi_home">Home</string>
+    <string name="navi_cards">Cards/Subscripton</string>
+    <string name="navi_support">Support</string>
+    <string name="navi_requests">My Requests</string>
+    <string name="navi_share">Share</string>
+    <string name="navi_logout">Logout</string>
     <string name="posts">Posts</string>
     <string name="map">Map</string>
     <string name="network">Network</string>

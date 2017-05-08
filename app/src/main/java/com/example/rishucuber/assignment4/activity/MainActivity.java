@@ -97,18 +97,18 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
      * initialization
      */
     public void init() {
-        tvTabDiscover = (TextView) findViewById(R.id.tab_discover);
-        tvTabMap = (TextView) findViewById(R.id.tab_map);
-        tvTabMyPosts = (TextView) findViewById(R.id.tab_myposts);
-        tvTabRequests = (TextView) findViewById(R.id.tab_requests);
-        tvTabMyNetwork = (TextView) findViewById(R.id.tab_mynetwotk);
-        ivGrid = (ImageView) findViewById(R.id.appbar_grid);
-        ivSort = (ImageView) findViewById(R.id.appbar_sort);
-        tvAppBarTitle = (TextView) findViewById(R.id.appbar_title);
-        tvAppBarTitle.setText(R.string.title_tab1);
-        ivFilter = (ImageView) findViewById(R.id.appbar_filter);
+        tvTabDiscover = (TextView) findViewById(R.id.tv_tab_discover);
+        tvTabMap = (TextView) findViewById(R.id.tv_tab_map);
+        tvTabMyPosts = (TextView) findViewById(R.id.tv_tab_myposts);
+        tvTabRequests = (TextView) findViewById(R.id.tv_tab_requests);
+        tvTabMyNetwork = (TextView) findViewById(R.id.tv_tab_mynetwotk);
+        ivGrid = (ImageView) findViewById(R.id.iv_appbar_grid);
+        ivSort = (ImageView) findViewById(R.id.iv_appbar_sort);
+        tvAppBarTitle = (TextView) findViewById(R.id.tv_appbar_title);
+        tvAppBarTitle.setText(R.string.title_tab_discover);
+        ivFilter = (ImageView) findViewById(R.id.iv_appbar_filter);
         ivFilter.setVisibility(View.GONE);
-        ivHam = (ImageView) findViewById(R.id.ham);
+        ivHam = (ImageView) findViewById(R.id.iv_ham);
         dlNavView = (DrawerLayout) findViewById(R.id.drawer_layout);
 
 
@@ -125,20 +125,20 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
             ivGrid.setVisibility(View.VISIBLE);
             ivSort.setVisibility(View.VISIBLE);
             ivFilter.setVisibility(View.GONE);
-            tvAppBarTitle.setText(R.string.title_tab1);
+            tvAppBarTitle.setText(R.string.title_tab_discover);
 
         }
         if (position == 1) {
             ivGrid.setVisibility(View.GONE);
             ivSort.setVisibility(View.GONE);
-            tvAppBarTitle.setText(R.string.title_tab2);
+            tvAppBarTitle.setText(R.string.title_tab_map);
             ivFilter.setVisibility(View.GONE);
 
         }
         if (position == 2) {
             ivGrid.setVisibility(View.GONE);
             ivSort.setVisibility(View.GONE);
-            tvAppBarTitle.setText(R.string.title_tab3);
+            tvAppBarTitle.setText(R.string.title_tab_posts);
             ivFilter.setVisibility(View.VISIBLE);
 
 
@@ -146,14 +146,14 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         if (position == 3) {
             ivGrid.setVisibility(View.GONE);
             ivSort.setVisibility(View.GONE);
-            tvAppBarTitle.setText(R.string.title_tab4);
+            tvAppBarTitle.setText(R.string.title_tab_requests);
             ivFilter.setVisibility(View.GONE);
 
         }
         if (position == 4) {
             ivGrid.setVisibility(View.GONE);
             ivSort.setVisibility(View.GONE);
-            tvAppBarTitle.setText(R.string.title_tab5);
+            tvAppBarTitle.setText(R.string.title_tab_network);
             ivFilter.setVisibility(View.GONE);
 
         }

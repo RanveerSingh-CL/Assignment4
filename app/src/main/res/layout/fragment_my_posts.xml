@@ -8,29 +8,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="12dp"
         android:gravity="center"
-        >
-
+        android:orientation="horizontal"
+        android:padding="@dimen/length_small">
 
         <EditText
             android:id="@+id/search_bar"
+            style="@style/search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/seaarch_bar_background"
-            android:hint="@string/search_hint1"
             android:drawableLeft="@drawable/icon_search"
-            style="@style/search_bar"
-
-
-            />
+            android:hint="@string/search_hint_search" />
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view_posts"
-        android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
 
 </LinearLayout>

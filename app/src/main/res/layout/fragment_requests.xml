@@ -9,10 +9,10 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:orientation="horizontal"
-       android:layout_marginLeft="20dp"
-       android:layout_marginRight="20dp"
-       android:layout_marginBottom="16dp"
-       android:layout_marginTop="20dp"
+       android:layout_marginLeft="@dimen/length_medium"
+       android:layout_marginRight="@dimen/length_medium"
+       android:layout_marginBottom="@dimen/length_small"
+       android:layout_marginTop="@dimen/length_medium"
        >
        <TextView
            android:layout_width="match_parent"

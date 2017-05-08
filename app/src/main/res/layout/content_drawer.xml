@@ -12,7 +12,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="@dimen/xxlength_large"
             android:background="@color/colorPrimary" />
 
         <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:background="@color/navi_shadow"
             android:orientation="vertical"
-            android:paddingTop="60dp">
+            android:paddingTop="@dimen/xlength_medium">
 
             <TextView
                 android:layout_width="match_parent"
@@ -28,61 +28,61 @@
                 android:gravity="center"
                 android:text="@string/john"
                 android:textColor="@color/colorPrimary"
-                android:textSize="18sp" />
+                android:textSize="@dimen/length_small" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="32dp"
-                android:drawablePadding="-36dp"
+                android:layout_marginBottom="@dimen/length_large"
+                android:drawablePadding="@dimen/negative_padding"
                 android:drawableRight="@drawable/edit_icon"
                 android:gravity="center"
                 android:text="@string/Paris"
-                android:textSize="16sp" />
+                android:textSize="@dimen/text_size_normal" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/length_very_large"
                 android:drawableRight="@drawable/home_icon"
-                android:text="@string/item1" />
+                android:text="@string/navi_home" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginBottom="32dp"
+                android:layout_height="@dimen/length_very_large"
+                android:layout_marginBottom="@dimen/length_large"
                 android:drawableRight="@drawable/card_icon"
-                android:text="@string/item2" />
+                android:text="@string/navi_cards" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/length_very_large"
                 android:drawableRight="@drawable/phone_icon"
-                android:text="@string/item3" />
+                android:text="@string/navi_support" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginBottom="32dp"
+                android:layout_height="@dimen/length_very_large"
+                android:layout_marginBottom="@dimen/length_large"
                 android:drawableRight="@drawable/profile_icon"
-                android:text="@string/item4" />
+                android:text="@string/navi_requests" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/length_very_large"
                 android:drawableRight="@drawable/home_icon"
-                android:text="@string/item5" />
+                android:text="@string/navi_share" />
 
             <TextView
                 style="@style/navi_item"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/length_very_large"
                 android:drawableRight="@drawable/profile_icon"
-                android:text="@string/item6" />
+                android:text="@string/navi_logout" />
 
 
         </LinearLayout>
@@ -94,7 +94,7 @@
         android:layout_marginTop="20dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
+            android:id="@+id/ci_profile_image"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_gravity="center_horizontal"

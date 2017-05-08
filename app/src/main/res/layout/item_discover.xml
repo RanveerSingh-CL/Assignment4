@@ -9,7 +9,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/cover_image"
+            android:id="@+id/iv_cover_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
@@ -17,109 +17,107 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/length_very_large"
             android:background="@color/black_transparent"
             android:orientation="horizontal"
-            android:paddingLeft="12dp"
+            android:paddingLeft="@dimen/length_small"
             android:paddingRight="@dimen/length_very_small"
 
             >
 
             <TextView
-                style="@style/item_discovered_transparentbar_text"
+                style="@style/item_discovered_transparentbar_left"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/explore_paris"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="@string/explore_paris" />
 
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="@string/Paris"
-              style="@style/item_discovered_transparentbar_text2"/>
+            <TextView
+                style="@style/item_discovered_transparentbar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Paris" />
         </LinearLayout>
 
         <TextView
             style="@style/item_discovered_tv_over_image"
-            android:layout_width="107dp"
-            android:layout_height="27dp"
-            android:text="@string/send_req"
-            android:background="@drawable/view_button_background"/>
+            android:layout_width="@dimen/xxlength_very_large"
+            android:layout_height="@dimen/length_medium"
+            android:background="@drawable/view_button_background"
+            android:text="@string/send_req" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_marginBottom="@dimen/length_very_small"
+        android:orientation="vertical"
 
 
         >
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/add_image_icon"
-
-            style="@style/item_discovered_profile_image"
-
-            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="12dp"
-            android:layout_marginLeft="@dimen/length_very_small"
+            android:orientation="horizontal">
 
-            android:layout_weight="1"
-            >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/john"
-                style="@style/name_tv"/>
-
-
-            <RatingBar
-                android:id="@+id/ratingbar"
+            <ImageView
+                style="@style/item_discovered_profile_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:numStars="6"
-                style="?android:attr/ratingBarStyleSmall"
-                android:rating="5"
+
+                android:src="@drawable/add_image_icon"
+
                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_very_small"
+                android:layout_marginTop="@dimen/length_small"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/john" />
+
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="6"
+                    android:rating="5" />
             </LinearLayout>
+
             <TextView
-            android:id="@+id/time_left"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:drawableLeft="@drawable/icon_timer"
-            android:text="@string/time_left"
-            style="@style/item_discovered_tv"
-            />
+                android:id="@+id/tv_time_left"
+                style="@style/item_discovered_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/icon_timer"
+                android:text="@string/time_left" />
+
+            <TextView
+                android:id="@+id/tv_reviews"
+                style="@style/item_discovered_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/icon_comment_offclick_large"
+                android:text="@string/review" />
+        </LinearLayout>
+
         <TextView
-            android:id="@+id/reviews"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:drawableLeft="@drawable/icon_comment_offclick_large"
-            android:text="@string/review"
-            style="@style/item_discovered_tv"/>
-    </LinearLayout>
-        <TextView
+            style="@style/item_text_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/item_text"
-            style="@style/item_text_tv"
-            android:layout_marginRight="2dp"/>
+            android:text="@string/item_text" />
     </LinearLayout>
-
-
 
 
 </LinearLayout>

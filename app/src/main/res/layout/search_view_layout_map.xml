@@ -3,26 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="12dp"
         android:gravity="center"
-        >
-
+        android:orientation="horizontal"
+        android:padding="12dp">
 
         <EditText
+            style="@style/search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/seaarch_bar_background"
             android:layout_weight="0.2"
-            android:hint="@string/search_hint"
+            android:background="@drawable/seaarch_bar_background"
             android:drawableLeft="@drawable/location_icon_2"
-           style="@style/search_bar"
-
-
-           />
-
+            android:hint="@string/search_hint_question" />
     </LinearLayout>
 </LinearLayout>

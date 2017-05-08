@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
     <ImageView
-        android:id="@+id/ham"
+        android:id="@+id/iv_ham"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:src="@drawable/burger"/>
@@ -21,19 +21,19 @@
 
         >
     <ImageView
-        android:id="@+id/appbar_sort"
+        android:id="@+id/iv_appbar_sort"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:src="@drawable/sorti"/>
     <ImageView
-        android:id="@+id/appbar_grid"
+        android:id="@+id/iv_appbar_grid"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:src="@drawable/grid_view"/>
     </LinearLayout>
     </LinearLayout>
     <TextView
-        android:id="@+id/appbar_title"
+        android:id="@+id/tv_appbar_title"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:text=""
@@ -41,7 +41,7 @@
 
         />
     <ImageView
-        android:id="@+id/appbar_filter"
+        android:id="@+id/iv_appbar_filter"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:src="@drawable/post_filter_icon"

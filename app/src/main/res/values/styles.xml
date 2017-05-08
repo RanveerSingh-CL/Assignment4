@@ -19,7 +19,7 @@
         <item name="android:background">@drawable/tab_text_selector</item>
     </style>
 
-    <style name="item_discovered_transparentbar_text">
+    <style name="item_discovered_transparentbar_left">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/text_size_large</item>
 
@@ -28,7 +28,7 @@
         <item name="android:layout_weight">0.5</item>
     </style>
 
-    <style name="item_discovered_transparentbar_text2">
+    <style name="item_discovered_transparentbar_right">
         <item name="android:drawableLeft">@drawable/white_loc</item>
         <item name="android:drawablePadding">@dimen/length_very_small</item>
         <item name="android:textSize">@dimen/text_size_normal</item>
@@ -37,7 +37,7 @@
 
     </style>
 
-    <style name="item_discovered__grid_transparentbar_text2">
+    <style name="item_discovered__grid_transparentbar_tv">
         <item name="android:drawableStart">@drawable/locatiopn_icon</item>
         <item name="android:textSize">@dimen/text_size_small</item>
         <item name="android:textColor">@android:color/white</item>
@@ -46,18 +46,18 @@
 
     </style>
 
-    <style name="item_discovered_transparentbar_icon1">
+    <style name="item_discovered_transparentbar_edit">
 
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:paddingRight">@dimen/length_very_small</item>
     </style>
 
-    <style name="item_discovered_transparentbar_icon2">
+    <style name="item_discovered_transparentbar_trash">
         <item name="android:layout_gravity">center_vertical</item>
     </style>
 
     <style name="item_discovered_switch" parent="Theme.AppCompat">
-        <item name="android:layout_alignBottom">@+id/cover_image</item>
+        <item name="android:layout_alignBottom">@+id/iv_cover_image</item>
         <item name="android:layout_alignParentStart">true</item>
         <item name="android:layout_marginLeft">@dimen/length_medium</item>
         <item name="android:layout_marginBottom">@dimen/length_very_small</item>
@@ -103,7 +103,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/length_small</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_alignBottom">@+id/cover_image</item>
+        <item name="android:layout_alignBottom">@+id/iv_cover_image</item>
         <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_marginRight">@dimen/length_small</item>
         <item name="android:layout_marginBottom">@dimen/length_small</item>
@@ -160,7 +160,7 @@
     </style>
 
 
-    <style name="item_request_tv1">
+    <style name="item_request_tv_name">
         <item name="android:textSize">@dimen/text_size_normal</item>
         <item name="android:layout_marginRight">@dimen/length_very_smaller</item>
         <item name="android:layout_marginBottom">@dimen/length_very_small</item>
@@ -169,7 +169,7 @@
 
     </style>
 
-    <style name="item_request_tv2">
+    <style name="item_request_tv_address">
         <item name="android:drawableLeft">@drawable/location_icon_small</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_marginRight">@dimen/length_very_smaller</item>
@@ -178,7 +178,7 @@
 
     </style>
 
-    <style name="item_request_tv3">
+    <style name="item_request_tv_map">
 
         <item name="android:background">@drawable/connect_button</item>
 
@@ -189,14 +189,14 @@
 
     </style>
 
-    <style name="item_request_tv4">
+    <style name="item_request_tv_time">
         <item name="android:drawable">@drawable/time_icon_small</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_marginBottom">@dimen/length_very_small</item>
         <item name="android:textSize">@dimen/text_size_normal</item>
     </style>
 
-    <style name="item_request_tv5">
+    <style name="item_request_tv_discryption">
         <item name="android:drawable">@drawable/reviewa_icon_small</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/text_size_normal</item>
@@ -223,7 +223,7 @@
 
     </style>
 
-    <style name="TextView">
+    <style name="my_networks_tv">
         <item name="android:textSize">@dimen/text_size_normal</item>
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:layout_gravity">center</item>
@@ -231,7 +231,7 @@
         <item name="android:layout_marginTop">@dimen/length_very_small</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
-    <!-- Rounded TextViews--><style name="RoundedTextViewPrimary" parent="@style/TextView">
+    <!-- Rounded TextViews--><style name="RoundedTextViewPrimary" parent="@style/my_networks_tv">
     <item name="android:background">@drawable/shape_pill_primary</item>
     <item name="android:padding">@dimen/length_very_small</item>
     <item name="android:textColor">@android:color/white</item>

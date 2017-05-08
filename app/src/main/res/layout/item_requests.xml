@@ -15,9 +15,9 @@
             android:id="@+id/card_view"
             style="@style/item_request_card"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/request_card_height"
             android:layout_gravity="center"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="@dimen/length_medium"
 
 
             >
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:paddingTop="40dp">
+                android:paddingTop="@dimen/length_large">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -35,14 +35,14 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        style="@style/item_request_tv1"
+                        style="@style/item_request_tv_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/john" />
 
 
                     <RatingBar
-                        android:id="@+id/ratingbar"
+                        android:id="@+id/rating_bar"
                         style="?android:attr/ratingBarStyleSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -57,15 +57,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        style="@style/item_request_tv2"
+                        style="@style/item_request_tv_address"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="@string/address" />
 
                     <TextView
-                        style="@style/item_request_tv3"
-                        android:layout_width="83dp"
-                        android:layout_height="24dp"
+                        style="@style/item_request_tv_map"
+                        android:layout_width="@dimen/xlength_very_large"
+                        android:layout_height="@dimen/length_medium"
                         android:text="@string/show_on_map"
 
 
@@ -73,13 +73,13 @@
                 </LinearLayout>
 
                 <TextView
-                    style="@style/item_request_tv4"
+                    style="@style/item_request_tv_time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/time_left" />
 
                 <TextView
-                    style="@style/item_request_tv5"
+                    style="@style/item_request_tv_discryption"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/item_text" />
@@ -96,7 +96,7 @@
         android:layout_below="@+id/card_view"
         android:orientation="horizontal"
         android:layout_gravity="bottom"
-        android:layout_marginTop="205dp"
+        android:layout_marginTop="@dimen/xxlength"
         >
 
         <TextView
@@ -114,14 +114,14 @@
             android:text="@string/reject" />
     </LinearLayout>
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
-        android:layout_width="66dp"
-        android:layout_height="66dp"
+        android:id="@+id/ci_profile_image"
+        android:layout_width="@dimen/circular_image_side"
+        android:layout_height="@dimen/circular_image_side"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/profile_image"
         app:civ_border_color="@color/colorPrimary"
-        app:civ_border_width="2dp"
+        app:civ_border_width="@dimen/circular_image_border_width"
         />
 
 

@@ -3,51 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/tab_layout_max_height"
     android:background="@color/colorPrimary"
-    android:orientation="horizontal"
-
-    >
+    android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/tab_discover"
+        android:id="@+id/tv_tab_discover"
         style="@style/tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_tab1"
         android:drawableTop="@drawable/discover_icon"
-
-        />
+        android:text="@string/title_tab_discover" />
 
     <TextView
-        android:id="@+id/tab_map"
+        android:id="@+id/tv_tab_map"
         style="@style/tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_tab2"
         android:drawableTop="@drawable/map"
-        />
+        android:text="@string/title_tab_map" />
 
     <TextView
-        android:id="@+id/tab_myposts"
+        android:id="@+id/tv_tab_myposts"
         style="@style/tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_tab3"
-        android:drawableTop="@drawable/my_post"/>
+        android:drawableTop="@drawable/my_post"
+        android:text="@string/title_tab_posts" />
 
     <TextView
-        android:id="@+id/tab_requests"
+        android:id="@+id/tv_tab_requests"
         style="@style/tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_tab4"
-        android:drawableTop="@drawable/request"/>
+        android:drawableTop="@drawable/request"
+        android:text="@string/title_tab_requests" />
 
     <TextView
-        android:id="@+id/tab_mynetwotk"
+        android:id="@+id/tv_tab_mynetwotk"
         style="@style/tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_tab5"
-        android:drawableTop="@drawable/my_network"/>
+        android:drawableTop="@drawable/my_network"
+        android:text="@string/title_tab_network" />
 
 </LinearLayout>
